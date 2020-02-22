@@ -15,5 +15,6 @@
  
 ###### Happy Coding!!
 ###### *Python for Data Science.*
-
+###### *Course Instructor: Jackson Mwirigi*
+##### *[jacksonmwirigi@gmail.com](jackson)*
   
