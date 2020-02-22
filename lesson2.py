@@ -70,18 +70,18 @@ Working with IF Statements
 # expression is true or false.
 #if true we do something.
 
-# age= int(input("enter your age"))
-#
-# if age>=18:
-#     print("You are an adult")
-# else:
-#     print('You are not an adult')
+age= int(input("enter your age"))
 
-# user_int = int(input("enter any number"))
-# if user_int <0:
-#     print("This is a negative number")
-# else:
-#     print("This is a positive number")
+if age>=18:
+    print("You are an adult")
+else:
+    print('You are not an adult')
+
+user_int = int(input("enter any number"))
+if user_int <0:
+    print("This is a negative number")
+else:
+    print("This is a positive number")
 
 
 """

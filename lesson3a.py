@@ -17,33 +17,33 @@ def hello_world():
 # addition()
 #
 # #simple interest
-# def calculate_simple_interest():
-#     rate = 3
-#     time = 2
-#     principle = 60000
-#     simple_interest = rate*time*principle/100
-#     print('simple interest is',simple_interest)
+def calculate_simple_interest():
+    rate = 3
+    time = 2
+    principle = 60000
+    simple_interest = rate*time*principle/100
+    print('simple interest is',simple_interest)
+
+
+calculate_simple_interest()
+
+#bmi = weight/height*height
+
+#working with functions that has arguments
+def calculator (num1, num2):
+    print(num1+num2)
+calculator(10.0,30)
 #
-#
-# calculate_simple_interest()
-#
-# #bmi = weight/height*height
-#
-# #working with functions that has arguments
-# def calculator (num1, num2):
-#     print(num1+num2)
-# calculator(10.0,30)
-#
-# def welcome_message(name, friend_name):
-#     # name = input('provide your name')
-#     print('Welcome ',name)
-#     print("Hello Mr {} Nice "
-#           "to meet you {}"
-#           .format(name, friend_name))
-#
-# name = input('provide your name')
-# friend_name = input('Enter friend\'s name')
-# welcome_message(name,friend_name)
+def welcome_message(name, friend_name):
+    # name = input('provide your name')
+    print('Welcome ',name)
+    print("Hello Mr {} Nice "
+          "to meet you {}"
+          .format(name, friend_name))
+
+name = input('provide your name')
+friend_name = input('Enter friend\'s name')
+welcome_message(name,friend_name)
 
 
 #Return Type
